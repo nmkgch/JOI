@@ -1,10 +1,8 @@
 cnt4=0
 s = [input() for i in range(4)]
-kazu=s[0]
-kazu=int(kazu)
+kazu=int(s[0])
 basyo=list(map(int, s[1].split()))
-sousa=s[2]
-sousa=int(sousa)
+sousa=int(s[2])
 bango=list(map(int, s[3].split()))
 for cnt in range(sousa):
     cnt2=(bango[cnt])
